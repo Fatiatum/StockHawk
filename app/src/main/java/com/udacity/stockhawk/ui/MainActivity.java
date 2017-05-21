@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     public void button(@SuppressWarnings("UnusedParameters") View view) {
         new AddStockDialog().show(getFragmentManager(), "StockDialogFragment");
+        view.setContentDescription(getResources().getString(R.string.add_stock_cd));
     }
 
     void addStock(String symbol) {
@@ -182,6 +183,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             PrefUtils.toggleDisplayMode(this);
             setDisplayModeMenuItemIcon(item);
             adapter.notifyDataSetChanged();
+
             return true;
         }
         return super.onOptionsItemSelected(item);

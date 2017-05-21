@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Stock Hawk</string>
 
@@ -31,5 +32,10 @@
 
     <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
+
+    <string name="price_cd">The price for stock %1$s is %2$s</string>
+    <string name="symbol_cd">Stock %s</string>
+    <string name="add_stock_cd">Add a new stock</string>
+    <string name="add_btn_cd">Type to add a new stock</string>
 
 </resources>
